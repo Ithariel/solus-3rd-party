@@ -8,13 +8,13 @@
             <Name>Ithariel</Name>
             <Email>jw+git@ichwillne.info</Email>
         </Packager>
-        <Summary>Chrootkit</Summary>
+        <Summary>chkrootkit</Summary>
         <Description>locally checks for sings of a rootkit</Description>
         <License>EULA</License>
 	<Archive sha1sum="7af6670f41587e594ef366f8e93dc7fcaf535256" type="targz">ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz</Archive>
     </Source>
     <Package>
-        <Name>chrootkit</Name>
+        <Name>chkrootkit</Name>
         <Files>
             <Path fileType="executable">/usr/sbin</Path>
             <Path fileType="library">/usr/lib</Path>

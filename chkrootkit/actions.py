@@ -14,6 +14,7 @@ WorkDir = "."
 def setup():
     shelltools.system("pwd")
     shelltools.cd("chkrootkit-0.53")
+    shelltools.system("sed -i '/^unalias dirname*/a  cd /usr/lib/chkrootkit' chkrootkit")
     shelltools.system("make sense")
     shelltools.cd("..")
 
