@@ -13,7 +13,7 @@ WorkDir = "."
 
 def setup():
     shelltools.system("pwd")
-    shelltools.cd("chrootkit-0.53")
+    shelltools.cd("chkrootkit-0.53")
     shelltools.system("make sense")
     shelltools.cd("..")
 
