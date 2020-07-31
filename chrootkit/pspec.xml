@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>chrootkit</Name>
+        <Homepage>http://www.chkrootkit.org</Homepage>
+        <Packager>
+            <Name>Ithariel</Name>
+            <Email>jw+git@ichwillne.info</Email>
+        </Packager>
+        <Summary>Chrootkit</Summary>
+        <Description>locally checks for sings of a rootkit</Description>
+        <License>EULA</License>
+	<Archive md5sum="944c529c4846960bdede4be49ef66386" type="targz">ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>chrootkit</Name>
+        <Files>
+            <Path fileType="executable">/usr/sbin</Path>
+            <Path fileType="library">/usr/lib</Path>
+        </Files>
+    </Package>
+
+    <History>
+       <Update release="1">
+            <Date>07-32-2020</Date>
+            <Version>0.53</Version>
+            <Comment>Initial inclusion of chrootkit</Comment>
+            <Name>Ithariel</Name>
+            <Email>jw+git@ichwillne.info</Email>
+        </Update>
+    </History>
+</PISI>
