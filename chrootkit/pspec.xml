@@ -11,7 +11,7 @@
         <Summary>Chrootkit</Summary>
         <Description>locally checks for sings of a rootkit</Description>
         <License>EULA</License>
-	<Archive md5sum="944c529c4846960bdede4be49ef66386" type="targz">ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz</Archive>
+	<Archive sha1sum="7af6670f41587e594ef366f8e93dc7fcaf535256" type="targz">ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit.tar.gz</Archive>
     </Source>
     <Package>
         <Name>chrootkit</Name>
