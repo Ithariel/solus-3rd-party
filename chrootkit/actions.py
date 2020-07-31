@@ -13,9 +13,9 @@ WorkDir = "."
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("cd chkrootkit-0.53")
+    shelltools.cd("chrootkit-0.53")
     shelltools.system("make sense")
-    shelltools.system("cd ..")
+    shelltools.cd("..")
 
 def install():
     pisitools.dodir("/usr/lib/chkrootkit")
